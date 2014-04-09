@@ -1,3 +1,0 @@
-dev_fine_google_calander_events_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: DevFineGoogleCalanderEventsBundle:Default:index }

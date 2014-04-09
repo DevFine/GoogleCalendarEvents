@@ -1,0 +1,4 @@
+devfine_googlecalendarevents_bundle:
+   resource:     "@DevFineGoogleCalendarEventsBundle/Controller"
+   type:         annotation
+   prefix:       /devfine

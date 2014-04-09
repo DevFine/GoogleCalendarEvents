@@ -1,6 +1,6 @@
 <?php
 
-namespace DevFine\GoogleCalanderEventsBundle\DependencyInjection;
+namespace DevFine\Bundle\GoogleCalendarEventsBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('dev_fine_google_calander_events');
+        $rootNode = $treeBuilder->root('dev_fine_google_calendar_events');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for

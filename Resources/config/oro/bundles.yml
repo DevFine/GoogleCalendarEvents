@@ -1,0 +1,2 @@
+bundles:
+   - { name: DevFine\Bundle\GoogleCalendarEventsBundle\DevFineGoogleCalendarEventsBundle, priority: 100 }

@@ -1,10 +1,10 @@
 <?php
 
-namespace DevFine\GoogleCalanderEventsBundle\Tests\Controller;
+namespace DevFine\Bundle\GoogleCalendarEventsBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class DefaultControllerTest extends WebTestCase
+class TempControllerTest extends WebTestCase
 {
     public function testIndex()
     {
