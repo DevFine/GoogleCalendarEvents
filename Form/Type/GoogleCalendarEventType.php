@@ -2,6 +2,7 @@
 
 namespace DevFine\Bundle\GoogleCalendarEventsBundle\Form\Type;
 
+use Symfony\Component\Form\FormBuilderInterface;
 use Oro\Bundle\CalendarBundle\Form\Type\CalendarEventType;
 
 class GoogleCalendarEventType extends CalendarEventType
@@ -11,17 +12,17 @@ class GoogleCalendarEventType extends CalendarEventType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-
         parent::buildForm($builder, $options);
         $builder
             ->add(
-                'add_to_google_calendar',
+                'addToGoogleCalendar',
                 'checkbox',
                 [
                     'required' => false,
                     'label'    => 'Add to Google'
                 ]
             );
+        $a=1;
     }
 
 }

@@ -1,2 +1,0 @@
-parameters:
-    oro_calendar.calendar_event.form.type.class:              DevFine\Bundle\GoogleCalendarEventsBundle\Form\Type\GoogleCalendarEventType
