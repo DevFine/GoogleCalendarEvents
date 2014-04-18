@@ -1,0 +1,8 @@
+parameters:
+    oro_calendar.calendar_event.form.type.class:              DevFine\Bundle\GoogleCalendarEventsBundle\Form\Type\GoogleCalendarEventType
+
+services:
+    oro_calendar.calendar_event.form.type:
+        class: %oro_calendar.calendar_event.form.type.class%
+        tags:
+            - { name: form.type, alias: oro_calendar_event }
