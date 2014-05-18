@@ -25,6 +25,7 @@ class DevFineGoogleCalendarEventsExtension extends Extension
         $container->prependExtensionConfig('dev_fine_google_calendar_events', $config);
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
-        $loader->load('services.yml');
+        $loader->load('form.yml');
+
     }
 }
