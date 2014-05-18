@@ -19,7 +19,7 @@ class GoogleCalendarEventType extends CalendarEventType
                 'checkbox',
                 [
                     'required' => false,
-                    'label'    => 'Add to Google'
+                    'label'    => 'Add to Google Calendar'
                 ]
             );
         $a=1;
