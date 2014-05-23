@@ -1,0 +1,30 @@
+oro_system_configuration:
+    groups:
+        google_calendar_settings:
+            icon:   icon-bullhorn
+            title:  'Google Calendar'
+        google_calendar_general_settings:
+            title:  'General'
+    fields:
+        dev_fine_google_calendar_events.google_username:
+            type: text
+            options:
+                label: 'Google Account Name'
+        dev_fine_google_calendar_events.google_password:
+            type: password
+            options:
+                label: 'Google Account Passord'
+
+
+    tree:
+        system_configuration:
+            platform:
+                children:
+                    general_setup:
+                        children:
+                            google_calendar_settings:
+                                children:
+                                    google_calendar_general_settings:
+                                        children:
+                                            - dev_fine_google_calendar_events.google_username
+                                            - dev_fine_google_calendar_events.google_password
